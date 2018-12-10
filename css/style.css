@@ -1,0 +1,345 @@
+* {
+    /*    border: solid 1px #ddd;*/
+    box-sizing: border-box;
+    outline: none; 
+}
+
+body {
+    font-family: 微軟正黑體, Microsoft JhengHei, Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -100;
+    bottom: 0;
+}
+
+.container {
+    max-width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    background: #F7F8F8;
+    display: none;
+}
+
+.navbar .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav .nav-link {
+    color: #727171;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #56899D;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.container h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.container h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #56899D;
+}
+
+.container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section1_南庄好水 */
+
+#section1 {
+    text-align: center;
+}
+
+#section1 .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section1 .title {
+    margin: 30px 0;
+}
+
+#section1 .logo img {
+    width: 300px;
+}
+
+#section1 .content h6 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 50px;
+    line-height: 36px;
+}
+
+#section1 .banner_list {
+    margin: 0;
+}
+
+#section1 .banner_list div {
+    padding: 0;
+}
+
+/* Section2_特色探索 */
+
+#section2 {
+    background: url(../img/bottle.png) no-repeat bottom;
+    background-position: 0 50px;
+    width: auto;
+    height: 930px;
+}
+
+#section2 .row {
+    padding: 30px 60px;
+}
+
+#section2 .icon {
+    padding: 30px;
+}
+
+#section2 .icon img {
+    position: absolute;
+    width: 60%;
+    top: 10%;
+}
+
+#section2 .icon_l {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#section2 .icon_r {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#section2 .icon2 svg,
+#section2 .icon3 svg {
+    margin-left: 100px;
+}
+
+#section2 .icon1 svg,
+#section2 .icon4 svg {
+    margin-right: 100px;
+    ;
+}
+
+/* Section3_特色探索 */
+
+#section3 {
+    display: flex;
+    justify-content: center;
+}
+
+#section3 .row {
+    padding: 0;
+}
+
+#section3 .content,
+#section3 .photo {
+    padding: 30px 0;
+}
+
+#section3 .content h6 {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+#section3 .photo {
+    text-align: center;
+}
+
+#section3 .photo img {
+    width: 420px;
+}
+
+#section3 .photo.photo_l {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#section3 .photo.photo_r {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Section4_客製好水 */
+
+#section4 img {
+    width: 100%;
+}
+
+#section4 .content {
+    margin-top: 30px;
+    line-height: 26px;
+}
+
+#section4 .content h6 {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+/* Section5_客製流程 */
+
+#section5, #section6 {
+    height: 700px;
+}
+
+#section5 .row {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#section5 .content.content1 {
+    margin-bottom: 30px
+}
+
+#section5 .title {
+    background: #56899D;
+    border-radius: 10px;
+    padding: 8px 16px;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+#section5 .title.title2 {
+    width: 95%;
+}
+
+#section5 img {
+    width: 130px;
+    height: 130px;
+
+}
+
+#section5 .step {
+    padding: 0;
+    margin-top: 15px;
+}
+
+#section5 .step.step_l {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#section5 .step.step_r {
+    display: flex;
+    justify-content: center;
+}
+
+#section5 .step h6 {
+    font-weight: 900;
+    color: #56899D;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#section5 .step i {
+    margin-bottom: 25%;
+}
+
+#section5 .step_list1,
+#section5 .step_list2 {
+    padding: 0 5px;
+}
+
+/* Section6_聯絡我們 */
+#section6 .row {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#section6 .form-group.row {
+    transform: translateY(0%);
+}
+
+#section6 .content {
+    align-items: flex-start;
+}
+
+#section6 .contact .contact_logo,
+#section6 .contact .contact_content {
+    margin-bottom: 20px;
+}
+
+#section6 .content .input_title {
+    text-align: right;
+    padding-right: 0;
+}
+
+#section6 .content .input_list {
+    margin-top: 50px;
+}
+
+#section6 .input_list .submit_btn {
+    background: #56899D;
+    font-weight: 900;
+}
+
+
+#section6 .input_box {
+    padding-left: 0;
+}
+
+#section6 .contact_logo {
+    text-align: center;
+}
+
+#section6 .contact_logo img {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+#section6 .contact_content h6 {
+    text-align: center;
+    line-height: 36px;
+}
+
+#section6 .contact_info {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#section6 .line {
+    border-bottom-style: dashed;
+    border-width: 1px;
+    color: #56899D;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+}
+
+#section6 .line h6, #section6 .line h6 a {
+    color: #56899D;
+    margin: 0;
+}
+
+#section6 .contact_info img {
+    width: 30px;
+    vertical-align: text-bottom;
+}

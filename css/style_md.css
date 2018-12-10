@@ -1,0 +1,331 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+    #canvas {
+        height: 70%;
+        bottom: -25%;
+    }
+
+    .navbar-toggler {
+        /*        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);*/
+    }
+    .navbar-toggler .navbar-toggler-icon {
+        color: #818182;
+        vertical-align: sub;
+    }
+
+    .container {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    
+    .container h3 {
+        text-align: center;
+    }
+    
+    .container h6 {
+        text-align: center;
+        font-weight: normal;
+        color: #3E3A39;
+    }
+
+    /* Section1_南庄好水 */
+    #section1 {
+        padding-top: 30px;
+    }
+    #section1 .title {
+        margin: 20px 0;
+    }
+    #section1 #water {
+        display: none;
+    }
+    #section1 .logo img {
+        width: 70%;
+    }
+    .container h1 {
+        font-size: 2.5em;
+    }
+    .container h3 {
+        font-size: 1.5em;
+    }
+    #section1 .banner_list div {
+        padding: 0 3px;
+    }
+    #section1 .banner_list img {
+        width: 100%;
+    }
+    #section1 .content h6 {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    /* Section2_特色探索 */
+    #section2 {
+        padding-top: 0;
+        background-size: auto 90%;
+        background-position: center 70px;
+        height: 575px;
+    }
+    
+    #section2 .row {
+        padding: 0; 
+    }
+    
+    #section2 .icon {
+        padding: 0 15px;
+        height: 130px;
+        top: 150px;
+    }
+    #section2 .icon img {
+        top: -15%;
+    }
+    #section2 .icon svg {
+        width: 80%;
+    }
+
+    #section2 .icon2 svg,
+    #section2 .icon3 svg {
+        margin-left: 30px;
+    }
+
+    #section2 .icon4 svg {
+        margin-right: 30px;
+    }
+
+    /* Section3_特色探索 */
+    #section3 {
+        padding-top: 0;
+    }
+    
+    #section3 .row {
+        padding: 0 15px;
+    }
+
+    #section3 .photo {
+        padding: 0 0;
+        z-index: 1;
+        overflow: hidden;
+    }
+    #section3 .content {
+        padding: 20px 0 30px;
+        z-index: 0;
+    }
+    #section3 .photo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Section4_客製好水 */ 
+    #section4 .content {
+        margin-top: 15px;
+    }
+    
+    #section4 h6.hide {
+        display: none;
+    }
+    
+    #section4 .img_md img {
+        width: 70%;
+    }
+
+    /* Section5_客製流程 */
+    #section5, #section6 {
+        height: auto;
+    }
+
+    #section5 .row {
+        position: static;
+        transform: none;
+    }
+
+    #section5 .content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #section5 .content.content1, #section5 .content.content2 .item2 {
+        margin-bottom: 15px;
+    }
+    
+    #section5 .title {
+        text-align: center;
+    }
+    
+    #section5 .step.step_l {
+        justify-content: center;
+    }
+    
+    #section5 .step_list1,
+    #section5 .step_list2 {
+        text-align: center;
+        text-align: -webkit-center;
+        padding: 0 10px;
+    }
+
+    #section5 img {
+        width: 80px;
+        height: auto;
+    }
+
+    #section5 .title.title2 {
+        width: 100%;
+    }
+
+    #section5 .step h6 {
+        align-items: center;
+    }
+    
+    #section5 .step h6 .num {
+        background-color: #56899D;
+        color: #FFF;
+        padding: 2.5px 6.5px;
+        border-radius: 30px;
+        font-size: 12px;
+    }
+
+    /* Section6_聯絡我們 */
+    #section6 {
+        padding-bottom: 30px;
+    }
+    
+    #section6 .row {
+        position: static;
+        transform: none;
+    }
+    
+    #section6 .title {
+        padding: 0;
+        background: #56899D;
+        border-radius: 10px;
+        padding: 8px 16px;
+        color: #FFF;
+        font-weight: 900;
+        font-size: 21px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    #section6 .content {
+        display: block;
+    }
+
+    #section6 .content .input_list {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    #section6 .content .input_title {
+        text-align: left;
+    }
+    #section6 .content .input_box {
+        padding-left: 15px;
+    }
+    #section6 .contact_box {
+        padding: 0;
+    }
+    #section6 .contact_logo img {
+        width: 70%;
+    }
+    #section6 .contact_info {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #section6 .line h6, #section6 .line h6 a {
+/*        text-align: left;*/
+        font-weight: 500;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 576px) and (max-width: 991px) {
+    #canvas {
+        height: 50%;
+        bottom: -10%;
+    }
+    
+    .container {
+        padding-bottom: 0; 
+    }
+    
+    #section1 #water {
+        display: none;
+    }
+    
+    #section2 {
+        background-position: center bottom;
+        margin-top: 50px;
+    }
+    
+    #section2 .row {
+        padding: 30px 0;
+    }
+    
+    #section2 .icon img {
+        width: 57.5%;
+        top: 20%;
+    }
+
+    #section2 .icon2 svg,
+    #section2 .icon3 svg {
+        margin-left: 40px;
+    }
+
+    #section2 .icon1 svg,
+    #section2 .icon4 svg {
+        margin-right: 40px;
+        ;
+    }
+    
+    #section3 {
+        padding-top: 0;
+    }
+    
+    #section3 .photo img {
+        width: 100%;
+        height: 180px;
+    }
+    
+    #section3 .photo.photo_l {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 20px;
+    }
+    
+    #section3 .content h6 {
+        line-height: 27px;
+    }
+
+    #section3 .photo.photo_r {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 20px;
+    }
+    
+    #section5, #section6 {
+        height: 600px;
+    }
+    
+    #section5 img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    #section5 .title2 span {
+        display: none;
+    }
+    
+    #section6 .contact_logo img {
+        width: 240px;
+    }
+    
+    #section5 .step h6 {
+        align-items: center;
+    }
+    
+    #section5 .step_list1 h6, #section5 .step_list2 h6 {
+        align-items: flex-start;
+    }
+}
